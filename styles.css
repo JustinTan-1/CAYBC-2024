@@ -2,4 +2,141 @@
 
 * {
   font-family: Roboto;
+  margin: 0;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  flex-grow: 1;
+}
+
+.secondContainer {
+  background-color: white;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.thirdContainer {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.combinedContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstContent {
+  border: 3px solid red;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondContent {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.thirdContent {
+  width: 700px;
+  display: block;
+}
+.caybc {
+  height: auto;
+  width: 500px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.imgcard {
+  width: 200px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+.quoteSource {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+  margin-left: 375px;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  margin: 0;
+  align-items: baseline;
+}
+
+.infoHeader {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+  padding: 48px;
+}
+.headerLogo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+.title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  height: 48px;
+}
+
+.signup {
+  background-color: #3882f6;
+  width: 130px;
+  height: 35px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+  border-radius: 12px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 }
